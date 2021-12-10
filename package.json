@@ -1,0 +1,23 @@
+{
+  "name": "datas_tructures",
+  "version": "1.0.0",
+  "description": "some useful info about data structures and their implementations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirTkachenko/datas_tructures.git"
+  },
+  "keywords": [
+    "data",
+    "structure"
+  ],
+  "author": "VladT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladimirTkachenko/datas_tructures/issues"
+  },
+  "homepage": "https://github.com/VladimirTkachenko/datas_tructures#readme"
+}
