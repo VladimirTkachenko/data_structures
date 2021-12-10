@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "test-linked-list": "nodemon --watch 'src/**/*.ts' --exec ts-node ./src/examples/example-linked-list.ts",
-    "run-linked-list": "node ./piblic/examples/example-linked-list.ts"
+    "linked-list": "node ./public/examples/example-linked-list.js",
+    "test-stack": "nodemon --watch 'src/**/*.ts' --exec ts-node ./src/examples/example-stack.ts",
+    "stack": "node ./public/examples/example-stack.js"
   },
   "repository": {
     "type": "git",

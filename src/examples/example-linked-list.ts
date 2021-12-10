@@ -1,5 +1,4 @@
-import { LinkedList } from "../linked-list";
-console.log(1);
+import { LinkedList } from "../";
 try {
     const linkedList = new LinkedList();
     linkedList.add('one');
