@@ -1,19 +1,10 @@
 import { LinkedListNode } from "./";
-import { ILinkedListNode } from "../interfaces";
+import { 
+    ILinkedList,
+    ILinkedListNode,
+} from "../interfaces";
 import { ELinkedListLengthOpearations } from "../enums";
 
-interface ILinkedList {
-    size: number;
-    head: ILinkedListNode;
-    isEmpty: boolean;
-    add(element: any): void;
-    remove(element: any): void;
-    indexOf(element: any): number;
-    elementAt(idx: number): any;
-    addAt(idx: number, element: any): void;
-    removeAt(idx: number): any;
-    checkIndex(idx: number): boolean;
-}
 
 export class LinkedList implements ILinkedList {
     private _length = 0;
