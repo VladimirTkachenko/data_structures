@@ -42,7 +42,7 @@ export class LinkedList implements ILinkedList {
         } else {
             let currentNode = this.head;
             while(currentNode.next) {
-                currentNode.next = node;
+                currentNode = currentNode.next;
             }
             currentNode.next = node;
         }
@@ -144,10 +144,11 @@ export class LinkedList implements ILinkedList {
             }
             previousNode.next = currentNode.next;
         }
+        this.changeLength("decrement");
         return currentNode.data;
     }
 
     checkIndex(idx: number): boolean {
-        return this.size - 1 >= idx; 
+        return this.size - 1 <= idx; 
     }
 }
